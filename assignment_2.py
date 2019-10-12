@@ -1371,7 +1371,7 @@ def nn_analysis():
 	# Split the data into training and testing 
 	X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.4, random_state=3169)
 
-	'''
+	
 	test_acc_sa_1 = []
 	for i in range(1000,120000,5000):
 		print(i)
@@ -1436,7 +1436,7 @@ def nn_analysis():
 	plt.xlabel('Number of Iterations')
 	plt.ylabel('Testing Accuracy')
 	plt.savefig('NN_SA_analysis.png')
-	'''
+	
 
 	test_acc_backprop = []
 	for i in range(10,1000,2):
@@ -1595,31 +1595,31 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 #### MAIN FUNCTION FOR ASSIGNMENT 2 ########
 
 ### FOUR PEAKS ######
-#four_peaks_input_size()
-#four_peaks_iterations()
-#four_peaks_t()
-#four_peaks_ga()
-#four_peaks_rhc()
-#four_peaks_mimic()
+four_peaks_input_size()
+four_peaks_iterations()
+four_peaks_t()
+four_peaks_ga()
+four_peaks_rhc()
+four_peaks_mimic()
 
 #neural_net_optimization()
 
 ### CONTINUOUS PEAKS #####
-#continuous_peaks_input_size()
-#continuous_peaks_iterations()
-#continuous_peaks_t()
-#continuous_peaks_ga()
-#continuous_peaks_rhc()
-#continuous_peaks_mimic()
+continuous_peaks_input_size()
+continuous_peaks_iterations()
+continuous_peaks_t()
+continuous_peaks_ga()
+continuous_peaks_rhc()
+continuous_peaks_mimic()
 
 ### K-COLORING #####
-#k_color_input_size()
-#k_color_iterations()
-#k_color_ga()
-#k_color_rhc()
-#k_color_mimic()
+k_color_input_size()
+k_color_iterations()
+k_color_ga()
+k_color_rhc()
+k_color_mimic()
 
 ### NEURAL NETWORK WEIGHT OPTIMIZATION #####
 neural_net_optimization()
-#nn_analysis()
+nn_analysis()
 
